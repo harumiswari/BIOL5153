@@ -1,0 +1,39 @@
+1a. Yes for python 3. No for python 2.7
+1b. ~$ apt-cache policy python3 OR ~$ python3 --version; python2 --version
+
+2a. No
+2b. 254 kb
+2c. $ cp letters.txt letters.let
+2d. $ rm letters.let
+2e. $ mkdir lab2
+
+3a. $ cat cox* > ~/Downloads/example_files/lab2/cox_genes.fasta
+
+4. $ rm -r lab2/
+
+5a. $ wc -l shaver_etal.csv
+5b. 1626
+5c. $ grep "Toolik" shaver_etal.csv
+5d. $ grep -v "Toolik" shaver_etal.csv
+
+6. ~$ find /$HOME/ -name "*nad*"
+
+7. ~$ top
+$ free -t
+total        used        free      shared  buff/cache   available
+Mem:        1004400      574456       63204        9608      366740      258132
+Swap:        459260      150184      309076
+Total:      1463660      724640      372280
+
+8. $ grep 'misc_feature' watermelon.gff | sort -k7nr > IR_regions.gff
+
+9. $ grep -c IR IR_regions.gff; grep -vc IR IR_regions.gff
+#non IR 34
+#IR 3
+ 
+10. $ cd nt; grep -vB1 GAATTC *.fasta | grep -B1 GGATCC *.fasta
+grep -r 'GAATTC' .
+
+11. $ cat shaver_etal.csv |head -n 1000 | tail -n 501 
+
+12. $ sort -k2,2r -k3 fruit.txt | column -t
