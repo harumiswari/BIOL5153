@@ -5,15 +5,19 @@
 # This section prints the header/required info for the PBS script
 
 # define some variables
+job_name = 'harumi_py'
 queue = 'onenode16core'
+out = 'harumi_py'
+node = 1
+pro = 10
 wall = 3 # this is in hours
 
-print('#PBS -N test\n') # job name
 
+print('#PBS -N', job_name) # job name
 print('#PBS -q', queue) # which queue to use
 print('#PBS -j oe') # join the STDOUT and STDERR into a single file
-print('#PBS -o aja.$PBS_JOBID') # set the name of the job output file
-print('#PBS -l nodes=1:ppn=10') # how many resource to ask for (nodes = num nudes, ppn = num processors)
+print('#PBS -o' + out + '.$PBS_JOBID') # set the name of the job output file
+print('#PBS -l nodes=' + str(node) + ':ppn=' + str(pro)) # how many resource to ask for (nodes = num nudes, ppn = num processors)
 print('#PBS -l walltime=' + str(wall) + ':00:00') # set the walltime (default to 1 hr)
 print()
 
