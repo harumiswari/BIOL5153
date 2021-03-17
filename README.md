@@ -11,4 +11,4 @@ write_razor_pbs.py and write_pinnacle_slurm.py: fourth assignment about the usef
 
 Here's an image of my script and pwd:
 
-![]($HOME/harumi/Documents/BIOL5153/Assignment/screenshot.png)
+![Screenshot](~/Documents/BIOL5153/Assignment/screenshot.png)
