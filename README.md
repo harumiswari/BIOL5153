@@ -1,5 +1,5 @@
 # BIOL5153
-This repository is for the collection of my class assignments
+**This repository is for the collection of my class assignments**
 
 padmaswari-assn01.txt: first assignment about how to use linux/unix command
 
@@ -11,4 +11,4 @@ write_razor_pbs.py and write_pinnacle_slurm.py: fourth assignment about the usef
 
 Here's an image of my script and pwd:
 
-![Screenshot](screenshot.png)
+![](~/screenshot.png)
