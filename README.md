@@ -8,3 +8,7 @@ padmaswari-assn02.md: second assignment about my CV in markdown, this assigment 
 assn03.tgz: third assignment about how to do BLAST in computer cluster
 
 write_razor_pbs.py and write_pinnacle_slurm.py: fourth assignment about the useful scripts written in python that can be reused for the future
+
+Here's an image of my script and pwd:
+
+![Screenshot]($HOME/harumi/Documents/BIOL5153/Assignment/screenshot.png)
