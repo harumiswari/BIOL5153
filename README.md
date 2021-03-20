@@ -1,5 +1,5 @@
 # BIOL5153
-## This repository is for the collection of my class assignments**
+## This repository is for the collection of my class assignments
 
 **1. padmaswari-assn01.txt**: first assignment about how to use linux/unix command
 
@@ -10,5 +10,6 @@
 **4. write_razor_pbs.py and write_pinnacle_slurm.py**: fourth assignment about the useful scripts written in python that can be reused for the future
 Here's an image of my script and pwd:
 [Screenshot](screenshot.png)
+
 **5. nucleotide composition**: fifth assignment about python script that we can use to count DNA sequence
 
