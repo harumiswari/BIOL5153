@@ -13,3 +13,6 @@ Here's an image of my script and pwd:
 
 **5. nucleotide composition**: fifth assignment about python script that we can use to count DNA sequence
 
+**6. parse GFF**: the sixth assignment is to add the reverse complement and parsing the fasta and gff file
+
+**7. parse exon GFF**: the seventh assignment is to extract the exon sequences
